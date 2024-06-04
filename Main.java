@@ -1,15 +1,15 @@
-public class main{
-    public static void main(){
-        String word = "level";
-        char[] wordList = word.toCharArray();
-        for (i = wordList.length -1, i >= 0, i--){
-            String word2 += wordList[i]; 
-        }
-        if (word == word2){
-            System.out.println("The word is the same backword");
-        }
-        else{
-            System.out.println("The word is not the same backword");
-        }
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args){
+        Stack stack = new Stack(capacity: 10);
+        stack.push ( 45);
+        stack.push ( 5);
+        stack.push ( 15);
+        stack.push ( 35);
+        stack.pop();
+        stack.pop();
+        stack.pop();
+
     }
 }
